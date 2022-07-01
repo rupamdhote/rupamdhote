@@ -5,8 +5,8 @@
     - name: URL
       prompt: "Enter Anything"
       private: no
-      
+
   tasks:
     - name: print messages_2
       debug:
-        msg: "{{URL}}
+        msg: "{{URL}}"
