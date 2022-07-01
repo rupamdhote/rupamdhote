@@ -1,4 +1,4 @@
-- name: playbook2
+- name: playbook3
   hosts: localhost
   vars_prompt:
     - name: URL
