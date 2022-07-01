@@ -3,10 +3,10 @@
   #vars:
     #URL: cloudblitz.in
   vars_prompt:
-    -name: URL
-     prompt: "enter anything"
+   - name: URL
+     prompt: "Enter Anything"
      private: no  
   tasks:
-  - name: Print messages_1
-    debug:
-      msg: "{{URL}}"
+   - name: Print messages_1
+     debug:
+     msg: "{{URL}}"
