@@ -1,0 +1,10 @@
+- name: playbook2
+  hosts: localhost
+  vars_prompt:
+    - name: URL
+      prompt: "Enter Anything"
+      private: no
+  tasks:
+    - name: print messages_2
+      debug:
+        msg: "{{URL}}
