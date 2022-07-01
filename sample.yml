@@ -2,9 +2,11 @@
   hosts: localhost
   #vars:
     #URL: cloudblitz.in
+  vars_prompt:
+    -name: URL
+     prompt: "enter anything"
+     private: no  
   tasks:
   - name: Print messages_1
     debug:
       msg: "{{URL}}"
-  vars:
-    URL: cloudblitz.in
