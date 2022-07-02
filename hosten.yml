@@ -1,5 +1,5 @@
 - name: playbook-4
-  hosts: localhost
+  hosts: all
   tasks:
     - name: print url
       debug: 
