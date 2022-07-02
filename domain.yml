@@ -1,0 +1,6 @@
+- name: playbook7
+  hosts: all 
+  tasks:
+    - name: print the host details
+      debug: 
+        msg: "node of ansible: {{ansible_nodename}}"
