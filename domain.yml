@@ -4,3 +4,7 @@
     - name: print the host details
       debug: 
         msg: "node of ansible: {{ansible_nodename}}"
+
+    - name: print the lost details
+      debug: 
+        msg: "dir of ansible: {{ansible_user_dir}}"    
