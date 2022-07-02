@@ -3,4 +3,4 @@
   tasks:
     - name: print the host details
       debug: 
-        msg: "node of ansible: {{ansible_nodename.ansible_user_dir}}"    
+        msg: "node of ansible:{{ansible_nodename.ansible_user_dir}}"    
